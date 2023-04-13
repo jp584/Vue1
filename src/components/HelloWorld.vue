@@ -1,34 +1,45 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
-    </p>
-    <h3>Mira neustras redes</h3>
+
+    <h3>Mira nuestras redes</h3>
 
     <ul>
       <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel
-          
-          <img src="" alt="">
-          </a
-        >
+        <a href="https://github.com/jp584/Vue1" target="_blank" rel="noopener">
+          <img
+            src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-png-image_6315990.png"
+            alt=""
+            class="iconos"
+          />
+        </a>
       </li>
       <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
+        <a href="https://github.com/jp584/Vue1" target="_blank" rel="noopener">
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt=""
+            class="iconos"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/jp584/Vue1" target="_blank" rel="noopener">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
+            alt=""
+            class="iconos"
+          />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/jp584/Vue1" target="_blank" rel="noopener">
+          <img
+            src="https://e7.pngegg.com/pngimages/625/935/png-clipart-google-surveys-google-docs-g-suite-form-formed-purple-violet-thumbnail.png"
+            alt=""
+            class="iconos"
+          />
+        </a>
       </li>
     </ul>
   </div>
@@ -58,5 +69,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.iconos {
+  max-width: 100px;
+  max-height: 100px;
 }
 </style>
