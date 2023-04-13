@@ -6,7 +6,7 @@
       alt="Vue logo"
       src="https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/a6/f6/bb/a6f6bbed-187e-b8b2-4622-36d44c4e8b2b/AppIcon-1x_U007emarketing-0-5-0-85-220.png/256x256bb.jpg"
     />
-     <!--CARRUSEL INICIO-->
+    <!--CARRUSEL INICIO-->
     <center>
       <div id="demo" class="carousel slide" data-ride="carousel">
         <!-- Barra de indicadores para ir a una imagen del Slide -->
@@ -77,5 +77,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background-color: #0099ff;
 }
 </style>

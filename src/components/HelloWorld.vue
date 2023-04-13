@@ -71,7 +71,11 @@ a {
   color: #42b983;
 }
 .iconos {
+  trasition: all 300ms;
   max-width: 100px;
   max-height: 100px;
+}
+.iconos:hover {
+  transform: scale(1.1);
 }
 </style>
